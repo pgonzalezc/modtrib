@@ -19,7 +19,7 @@ BaselineOfModTrib >> BaselineOf: spec [
 	spec
 		group: 'Core' with: #( 'ModTrib-Common' 'ModTrib-Root' );
 		group: 'Tests' with: #( 'ModTrib-Common-Tests' );
-		group: 'default' with: #( 'Core' 'Test' )
+		group: 'default' with: #( 'Core' 'Tests' )
 ]
 
 { #category : #'as yet unclassified' }
