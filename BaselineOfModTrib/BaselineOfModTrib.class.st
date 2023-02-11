@@ -14,7 +14,7 @@ BaselineOfModTrib >> BaselineOf: spec [
 		spec
 			package: 'ModTrib-Common'
 			with: [ spec requires: #( 'Seaside3' 'P3' ) ].
-		spec package: 'ModTrib-Common-Test'.
+		spec package: 'ModTrib-Common-Tests'.
 		spec package: 'ModTrib-Root' ].
 	spec
 		group: 'Core' with: #( 'ModTrib-Common' 'ModTrib-Root' );
