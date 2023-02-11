@@ -4,7 +4,7 @@ Modelos tributarios
 ```
 Metacello new
 	baseline: 'ModTrib';
-	repository: 'github://pgonzalezc/modtrib:main/src';
+	repository: 'github://pgonzalezc/modtrib:master/src';
 	load
 ```
 	
