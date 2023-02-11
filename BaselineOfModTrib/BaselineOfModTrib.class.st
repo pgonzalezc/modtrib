@@ -14,12 +14,12 @@ BaselineOfModTrib >> BaselineOf: spec [
 		spec
 			package: 'ModTrib-Common'
 			with: [ spec requires: #( 'Seaside3' 'P3' ) ].
-		spec packages: 'ModTrib-Common-Test'.
-		spec packages: 'ModTrib-Root' ].
+		spec package: 'ModTrib-Common-Test'.
+		spec package: 'ModTrib-Root' ].
 	spec
 		group: 'Core' with: #( 'ModTrib-Common' 'ModTrib-Root' );
 		group: 'Tests' with: #( 'ModTrib-Common-Tests' );
-		group: 'default' with: #( 'Core'  'Test' )
+		group: 'default' with: #( 'Core' 'Test' )
 ]
 
 { #category : #'as yet unclassified' }
