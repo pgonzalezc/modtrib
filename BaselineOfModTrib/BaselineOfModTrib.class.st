@@ -13,7 +13,7 @@ BaselineOfModTrib >> BaselineOf: spec [
 		self p3: spec.
 		spec
 			package: 'ModTrib-Common'
-			with: [ spec requires: #( 'Boottrap5' 'P3' ) ].
+			with: [ spec requires: #( 'Bootstrap5' 'P3' ) ].
 		spec package: 'ModTrib-Common-Tests'.
 		spec package: 'ModTrib-Root' ].
 	spec

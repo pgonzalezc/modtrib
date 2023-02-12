@@ -18,7 +18,6 @@ Cnae class >> connectionStr [
 Cnae class >> createTable [
 
 	<script>
-	
 	(P3Client new url: self connectionStr) in: [ :client | 
 		[ 
 		client execute: 'DROP TABLE IF EXISTS signo.cnae'.
